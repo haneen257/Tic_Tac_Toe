@@ -1,0 +1,33 @@
+body{
+    background-color:#E7AB79;
+}
+.game{
+    width: 400px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin: auto;
+    font-weight: 500;
+}
+.title{
+    background-color: #B25068;
+    padding: 20px 0;
+    margin: 5px 0;
+    font-size: 20px;
+}
+.title span{
+    color: #4C3A51;
+    font-weight: 700;
+}
+.square{
+    width: 129px;
+    height: 100px;
+    background-color: #B25068;
+    float: left;
+    margin: 2px;
+    font-size: 70px;
+}
+.square:hover{
+    background-color: #4C3A51;
+    cursor: pointer;
+}
